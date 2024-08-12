@@ -10,4 +10,4 @@ A comprehensive employee management application built with React, utilizing prop
 
 4.Promotion Toggle: Mark employees for promotion by clicking on their name and filter based on promotion status
 
-5.Bonus Assignment: Mark employees for an annual bonus by clicking the "Cookie" button
+5.Bonus Assignment: Mark employees for an annual bonus by clicking the "Medal" button
