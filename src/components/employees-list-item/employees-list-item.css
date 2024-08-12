@@ -1,0 +1,115 @@
+.list-group-item {
+    max-height: 70px;
+    padding: 15px 20px;
+    border-bottom: 1px solid #3d5a80;
+    align-items: center;
+}
+.list-group-item:last-child {
+    border-bottom: none;
+}
+.list-group-item span {
+    line-height: 35px;
+    font-size: 25px;
+    cursor: pointer;
+    width: 535px;
+    overflow: hidden;
+    margin-right: 15px
+}
+.list-group-item input {
+    line-height: 35px;
+    font-size: 25px;
+    text-align: center;
+    border: 0;
+    overflow: hidden;
+    margin-right: 15px;
+    max-width: 200px
+}
+.list-group-item button {
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+.list-group-item .btn-award ::before{
+    position: absolute;
+    bottom: 25px;
+    right: 97px;
+    content: "";
+    display: block;
+    background-image: url(../../icons/award-solid.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+}
+.list-group-item .btn-trash ::before{
+    position: absolute;
+    bottom: 25px;
+    right: 56px;
+    content: "";
+    display: block;
+    background-image: url(../../icons/trash-solid.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+    
+}
+.list-group-item .fa-star {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;
+    color: #FFD700;
+    transition: 0.3s all;
+    opacity: 0;
+    margin-left: 5px;
+}
+.list-group-item.like .fa-star {
+    content: "";
+    display: block;
+    background-image: url(../../icons/star-solid.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+}
+.list-group-item.increase .list-group-item-label, .list-group-item.increase .list-group-item-input {
+    color: #e09f3e;
+}
+.list-group-item.increase .btn-star {
+    color: #aeaeae;
+}
+.list-group-item-label{
+    font-size: 30px;
+}
+.list-group-item span{
+    font-size: 30px;
+}
+.list-group-item-input{
+    font-size: 30px;
+} 
+@media (max-width: 992px){
+    .list-group-item-label{
+        min-width: 60px;
+        
+    }
+    .list-group-item-input{
+        min-width: 120px;  
+        
+    }
+}
+@media (max-width: 576px){
+    .list-group-item span{
+        font-size: 20px;
+    }
+    .list-group-item input{
+        font-size: 20px;
+    }
+} 

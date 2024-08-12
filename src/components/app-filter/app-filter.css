@@ -1,0 +1,14 @@
+.btn-group {
+    margin-top: 20px;
+}
+.btn-group button {
+    width: 33.3%;
+}
+@media (max-width: 576px){
+    .btn {
+        position: relative;
+        font-size: 12px;
+        width: 33.3%;
+    }
+}
+
